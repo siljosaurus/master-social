@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,900;1,900&family=Roboto&display=swap');
 
 * {
-  margin: 5;
-  padding: 1rem;
+
   text-align: left;
   background-color: #231F20;
+  font-family: 'Roboto', sans-serif;
 
   cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
 
@@ -23,7 +23,13 @@ h1 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  
   color: rgba(var(--sf-orange))
+}
+
+.app {
+  max-width: 800px;
+  padding: 0 1rem;
+  margin: auto;
 }
 
