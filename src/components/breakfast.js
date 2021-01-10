@@ -4,7 +4,8 @@ const Breakfast = () => {
             padding: "0 2rem",
         }}>
             <h1> Designbrunsj #1</h1>
-            <h2>kl 11:30</h2>
+            <h2>fredag 15. jan kl 10:30 på zoom</h2>
+            <p>Link deles på mail, teams & fb gruppa</p>
             <p>- Orientering om bruk av ifi</p>
             <p>- Kahoot</p>
             <p>- Ukens dilemma</p>
