@@ -9,9 +9,8 @@ const Countdown = () => {
     const prosent = (1-Math.abs(diff)/Math.abs(skoledager))*100
         
     return(
-        <div>
-            <p> Dager til masteren skal leveres: {Math.abs(diff)} </p>
-            <p> {prosent.toFixed(0)}% ferdig med master</p>
+        <div className="countdown">
+            <h2> Dager til masteren skal leveres: {Math.abs(diff)} </h2>
             <div style={{
                 width: "100%",
                 backgroundColor: "rgba(var(--sf-blue), 0.5)",

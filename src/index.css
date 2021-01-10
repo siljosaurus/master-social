@@ -22,14 +22,23 @@ h1 {
   
 }
 
-p {
-  
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
   color: rgba(var(--sf-orange))
+}
+
+p {
+  color: rgba(var(--sf-nude))
 }
 
 .app {
   max-width: 800px;
   padding: 0 1rem;
   margin: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
