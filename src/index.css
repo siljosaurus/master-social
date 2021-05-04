@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,900;1,900&family=Roboto&display=swap');
 
 * {
 
@@ -6,45 +6,55 @@
   background-color: #231F20;
   font-family: 'Roboto', sans-serif;
 
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto;
-
   --sf-orange: 255, 174, 117;
   --sf-blush: 253, 120, 140;
   --sf-blue: 50, 154, 217;
   --sf-lightblue: 60, 170, 217;
-
   --sf-nude: 229, 227, 210;
 }
+
 
 h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 900;
   font-style: italic;
   color: rgba(var(--sf-blush), 1);
-  
 }
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: rgba(var(--sf-orange))
+  color: rgba(var(--sf-orange));
 }
 
 p {
-  color: rgba(var(--sf-nude))
+  color: rgba(var(--sf-nude));
 }
 
 a {
-  color:rgba(var(--sf-blue), 1)
-  
+  color:rgba(var(--sf-blue), 1);
+  cursor: pointer;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
   color:rgba(var(--sf-lightblue), 1)
-
 }
+
+i { 
+  color: rgba(var(--sf-nude));
+  font-size: 3rem;
+  padding: 1rem;
+  text-align: left;
+  transition: color 0.25s;
+}
+
+i:hover {
+  color:rgba(var(--sf-blue), 1);
+  cursor: pointer;
+}
+
 
 .app {
   max-width: 800px;
