@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,900;1,900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,400&family=Roboto&display=swap');
 
 * {
 
@@ -11,6 +11,8 @@
   --sf-orange: 255, 174, 117;
   --sf-blush: 253, 120, 140;
   --sf-blue: 50, 154, 217;
+  --sf-lightblue: 60, 170, 217;
+
   --sf-nude: 229, 227, 210;
 }
 
@@ -31,6 +33,17 @@ h2 {
 
 p {
   color: rgba(var(--sf-nude))
+}
+
+a {
+  color:rgba(var(--sf-blue), 1)
+  
+}
+
+a:hover{
+  cursor: pointer;
+  color:rgba(var(--sf-lightblue), 1)
+
 }
 
 .app {
