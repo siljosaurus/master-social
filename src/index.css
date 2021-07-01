@@ -28,6 +28,11 @@ h2 {
   color: rgba(var(--sf-orange));
 }
 
+h4 {
+    color: rgba(var(--sf-nude));
+    font-style: italic;
+}
+
 p {
   color: rgba(var(--sf-nude));
 }
@@ -64,4 +69,9 @@ i:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.table {
+  border: 1px solid rgba(229, 227, 210)
+
 }
