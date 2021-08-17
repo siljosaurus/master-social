@@ -11,9 +11,10 @@ const App = () => {
         <h1 style={{color: "rgba(var(--sf-blue), 1)"}}> master design social club</h1>
         <p>Velkommen til dette eksperimentelle digitale området rettet mot masterstudenter på 4. og 5. året design på ifi.</p>
         <div>
-          <a href={"https://discord.gg/nANT4ZTW"}><i className="fab fa-discord"></i></a>
+          <a href={"https://discord.gg/k9nTTMaF"}><i className="fab fa-discord"></i></a>
           <a href={"https://www.facebook.com/groups/1072004702847732"}><i className="fab fa-facebook-f"></i></a>
-          <p>Bli med på discord eller facebook gruppa; MASTER DESIGN IFI</p>
+          <a href={"https://2i.fi/"}><i class="fas fa-info-circle"></i></a>
+          <p>Bli med på discord og i facebook gruppa; MASTER DESIGN IFI. Er du ny til ifi? Sjekk ut info-ikonet som lenker til en samleside over praktiske hurtiglenker relatert til ifi-studielivet.</p>
         </div>
         <br/>
         <Dos/>

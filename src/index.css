@@ -28,6 +28,12 @@ h2 {
   color: rgba(var(--sf-orange));
 }
 
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+  color: rgba(var(--sf-blue));
+}
+
 h4 {
     color: rgba(var(--sf-nude));
     font-style: italic;
