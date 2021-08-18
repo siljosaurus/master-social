@@ -3,6 +3,9 @@ import './components/countdown'
 import Countdown from './components/countdown'
 import Dos from './articles/dos'
 import Uno from './articles/uno'
+import Tres from './articles/tres'
+
+
 
 const App = () => {
   return(
@@ -16,6 +19,8 @@ const App = () => {
           <a href={"https://2i.fi/"}><i class="fas fa-info-circle"></i></a>
           <p>Bli med på discord og i facebook gruppa; MASTER DESIGN IFI. Er du ny til ifi? Sjekk ut info-ikonet som lenker til en samleside over praktiske hurtiglenker relatert til ifi-studielivet.</p>
         </div>
+        <br/>
+        <Tres />
         <br/>
         <Dos/>
         <br/>
