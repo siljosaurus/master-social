@@ -30,7 +30,8 @@ const Rebus = () => {
             <p>12. Pek på bygningen hvor man kan både ruineres på Akademika og fikse seg studentkort.</p>
             <p>13. Hvor på Fredrikke drar studenter på fredager før de setter på gullrekka?</p>
             <p>14. Hvor lange steg tar dere i GS trappa?</p>
-            <p>15.Hvis ifi-designeren var en stereotyp, vis oss hvordan stereotypen ville sett ut.</p>
+            <p>15. Klarer dere å få en selfie med en studentpolitiker utenfor studentparlamentet?</p>
+            <p>16.Hvis ifi-designeren var en stereotyp, vis oss hvordan stereotypen ville sett ut.</p>
         </div>
     )
 }
