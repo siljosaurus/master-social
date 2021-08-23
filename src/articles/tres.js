@@ -5,9 +5,9 @@ const Tres = () => {
 
             <h1>Designfroksot</h1>
             <h4>Publisert: 18.08.2021</h4>
-            <p>Vi kjører i gang med høstens første designfrokost, tirsdag 24. august kl 08:30-09:30! På grunn av smittevern og bestilling av mat trenger vi påmelding. Informasjon om rommet frokosten skjer i kommer litt nærmere.</p>
-            <h2> <a href={"https://forms.gle/8cR5TrZTbAQQ8bzdA"}>Påmelding til designfrokost!</a> </h2>
-
+            <p>Velkommen til designfrokost! Det blir avholdt i det store auditoriet Kristen Nygaards hus. Nå har det vært en del sosiale samlinger i forhold til fadderuka, så vær litt ekstra følsom for eventuelle corona-symptomer. </p>
+            <h2>Tid: tirsdag 24.08.2021</h2>
+            <h2>Sted: Kristen Nygaard store auditorium</h2>
         </div>
     )
 }
