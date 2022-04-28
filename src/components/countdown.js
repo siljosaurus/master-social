@@ -5,7 +5,7 @@ const Countdown = () => {
     const now = dayjs()
     const skolestart = dayjs('2020-08-12')
     const skoledager = skolestart.diff('2022-06-01', 'day')
-    const diff = now.diff('2022-06-01', 'day')
+    const diff = now.diff('2022-05-16', 'day')
     const prosent = (1-Math.abs(diff)/Math.abs(skoledager))*100
         
     return(
